@@ -45,3 +45,24 @@ Every completed market analysis must produce a professional visual summary that 
 - Distinguish search interest index (0-100) from absolute search volume.
 - Put unknown metrics in an Evidence Gaps section rather than filling with estimates.
 - Make the recommendation conditional on the quality and recency of evidence.
+
+## Signature interactive design — not a Google Trends clone
+Build a distinctive premium SaaS market-intelligence dashboard, not a replica of Google Trends or any other platform. Visual inspiration: contemporary fintech analytics, refined glass surfaces, restrained gradients, clear editorial typography, polished motion graphics.
+
+### Motion and interaction
+- Animate KPI counters from 0 to their sourced value on initial reveal, but show the final true value immediately for reduced-motion users.
+- Animate SVG chart paths with subtle draw-on transitions (roughly 500–900 ms), without changing the underlying points or inventing intermediate data.
+- Hover/focus tooltips on actual chart data points, highlighted series, interactive legends and accessible keyboard focus states.
+- Smooth 150–300 ms hover elevation, filter selection, tab transitions and card entrance with stagger under 100 ms.
+- Optional animated gradient accents and gentle background glow; avoid continuous distracting motion, heavy parallax and excessive blur.
+- Provide interactive drill-down only when corresponding data exists. Disable unsupported filters and show 'No data available'.
+- Respect prefers-reduced-motion; all information must remain accessible without animation.
+- Maintain a polished 390px mobile layout with no horizontal page scroll; charts may have their own labeled scroll area if necessary.
+
+### Art direction
+- Dark premium navy/graphite theme with restrained electric blue, violet and teal highlights; elegant light-mode counterpart.
+- Glassmorphism only where contrast stays strong; use subtle borders, layered depth, rounded cards and whitespace.
+- Distinctive executive summary hero, KPI tiles, interactive chart grid, opportunity score, competitor landscape, scenario analysis and decision panel.
+- Never use decorative charts with invented numbers; display unavailable data as a clearly marked empty state.
+- Export self-contained HTML with inline CSS, vanilla JavaScript and SVG where supported; avoid remote fonts, CDNs and third-party scripts.
+- Treat aesthetics as a presentation layer; preserve all source dates, metric units, evidence confidence and original values.
