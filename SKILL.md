@@ -28,3 +28,7 @@ When asked to analyze a market, product, niche, or business idea:
 
 ## Example
 "Analyze crochet pattern PDFs in the US, compare competitors, calculate margins, and recommend a launch test."
+
+## Mandatory visual results stage
+After every completed market study, execute the Visual Intelligence workflow in references/visual-reporting.md.
+Produce a readable dashboard (HTML with embedded SVG charts, or PNG/PDF when the environment supports rendering) alongside the written report. For numerical data, render actual data-driven charts, not an AI-generated illustration of charts. If no file rendering tools are available, present clearly formatted Markdown tables and chart-ready datasets, and explain the limitation. Do not claim a graphic was generated unless the file exists.
